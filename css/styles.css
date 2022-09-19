@@ -1,0 +1,206 @@
+body {
+font-family: "Montserrat";
+}
+
+ #title {
+background-color: #ff4c68;
+
+}
+
+.container-fluid {
+padding:3% 15% 7%;
+}
+
+ h1 {
+font-family: 'Montserrat-Black', sans-serif;
+font-size: 3.5rem;
+line-height: 1.5;
+font-weight: 900;
+color: white;
+padding-top: 70px;
+
+ }
+
+ /* I have Changeg h2 during editing of testimonials section */
+ h2 {
+font-family: "Montserrat-Bold";
+font-size: 3rem;
+line-height: 1.5;
+ }
+
+   /* Navigation Bar */
+
+   .navbar {
+    padding-bottom: 4.5rem;
+   }
+
+  .navbar-brand {
+    font-size: 1.5rem;
+   font-weight: bold;
+  }
+
+  .nav-item {
+padding: 0 18px;
+  }
+
+  .nav-link {
+ font-size: 1.2rem;
+ font-family: "Montserrat-light" ;
+  }
+
+   /* Downloads Button */
+
+   .download-button {
+  margin: 5% 3% 5% 0;
+   }
+
+   /* Titl Image */
+   .title-image {
+    transform: rotate(25deg); /* Equal to rotateZ(45deg) */
+    width: 20%;
+    padding: 50px 0;
+    position: absolute;
+    left: 59%;
+
+  }
+
+
+                 /* Features */
+
+#features {
+text-align: center;
+background-color: #FFFFFF;
+z-index:1 ;
+position: relative;
+}
+
+.features-heading {
+font-family: "Montserrat-Bold";
+font-size: 1.8rem;
+font-weight: bold;
+margin-top: 12px;
+}
+
+.features-paragraph {
+color: #8f8f8f;
+padding: 5%;
+}
+
+
+.fa-solid {
+color: #ef8172;
+margin-top: 100px;
+
+}
+
+
+
+ /* You can Also Give Any Same classes to Font Awesome  */
+.fa-circle-check:hover {
+  color:#ff4c68;
+}
+
+.fa-bullseye:hover {
+color:#ff4c68;
+}
+
+.fa-heart:hover {
+color:#ff4c68;
+}
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+padding: 7% 15%;
+text-align: center;
+background-color: #ef8172;
+color:#fff;
+
+}
+
+/* In this section I have move padding from testimonals to apply padding only on button */
+.carousel-item {
+padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+border-radius: 100%;
+margin: 20px;
+}
+
+
+/* Press Section */
+
+#press {
+background-color: #ef8172;
+text-align: center;
+padding-bottom: 3%;
+
+}
+.press-logo {
+width: 12%;
+margin: 20px 20px 50px;
+
+}
+
+/* Pricing */
+
+#pricing {
+padding: 100px;
+text-align: center;
+
+}
+
+.pricing-column {
+padding: 3% 2%;
+
+}
+
+/* Call To Action and footer */
+#cta {
+text-align: center;
+background-color: #ff4c68;
+padding: 7% 15%;
+}
+
+.cta-button {
+margin:100px 10px 20px 10px;
+}
+
+.cta-heading {
+font-family: "Montserrat-Bold";
+font-size: 3.5rem ;
+line-height: 1.5;
+font-weight: bolder;
+color: #fff;
+
+
+}
+
+/* Footer */
+
+#footer {
+background-color: #fff;
+text-align: center;
+padding: 7% 15%;
+}
+
+.footer-icons {
+margin: 10px;
+}
+
+ /* Media Qurey For make responsive from Desktop to Mobile without bootstrap  */
+@media (max-width:1000px) {
+  #title {
+text-align: center;
+  }
+
+.title-image {
+  width: 60%;
+position:static;
+transform:rotate(0);
+}
+}
